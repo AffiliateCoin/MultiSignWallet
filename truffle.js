@@ -20,9 +20,24 @@ module.exports = {
     "ropsten": {
       network_id: 3,
       host: "localhost",
-      port: 7545,
-      gas: 2900000,
-      from: "0x1497945569c9e4612e77ad0b286900ef3684d3a6"
+      port: 8545,
+      gas: 4700036,
+      from: "0x749d3dcefe46d71a4eb004774efd5dc2bd468d8b"
+    },
+    "ropstenparity": {
+      network_id: 3,
+      host: "127.0.0.1",
+      port: 8545,
+      gas: 4712388,
+      gasPrice: 25000000000,
+      from: "0x749d3dcefe46d71a4eb004774efd5dc2bd468d8b"
+    },
+    "mainnetparity": {
+      network_id: 1,
+      host: "127.0.0.1",
+      port: 8545,
+      gas: 6712390,
+      from: "0x7db3cecaa8abb4a4dfac8c5d85c6138799978d99"
     }
   },
 };
